@@ -1,27 +1,43 @@
-# ItunesTop100
+### Objective
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.2.
+Ampersand is branching into the music business and needs a new website. Build it using JavaScript and React.
 
-## Development server
+### Brief
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+In a fictional world, Ampersand is branching into the music business and we need a new a website. This website needs to display the top 100 songs based on the iTunes API. This code challenge allows you to choose your own path and lets you flaunt your creative panache and technical skills along the way.
 
-## Code scaffolding
+### Tasks
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+-   Implement assignment using:
+    -   Language: **JavaScript, CSS**
+    -   Framework: **React**
+-   Show top 100 albums based on the json feed here: `https://itunes.apple.com/us/rss/topalbums/limit=100/json`
+-   Cross browser support (or graceful degradation)
+-   A clean modern look and responsive design
+-   A good user experience
+-   Use vanilla CSS/SCSS; avoid using a CSS framework
+-   Allow the top 100 to be searchable
+-   Surprise us! Add a feature that you think would work well here (for instance, advanced search, integration with other API, a "Favorite" functionality)
+    -   Describe the feature in separate markdown file
 
-## Build
+### Deliverables
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Make sure to include all source code in the repository. To make reviewing easier, include a fully built version of your assignment in a folder named **public**.
 
-## Running unit tests
+### Evaluation Criteria
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+-   **JavaScript** best practices
+-   We're looking for you to produce working code, with enough room to demonstrate how to structure components in a small program.
+-   Show us your work through your commit history
+-   Completeness: did you complete the features?
+-   Correctness: does the functionality act in sensible, thought-out ways?
+-   Maintainability: is it written in a clean, maintainable way?
+-   Testing: is the system adequately tested?
 
-## Running end-to-end tests
+### CodeSubmit
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Please organize, design, test and document your code as if it were going into production - then push your changes to the master branch. After you have pushed your code, you may submit the assignment on the assignment page.
 
-## Further help
+All the best and happy coding,
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+The Ampersand Team

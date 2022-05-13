@@ -1,0 +1,13 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  text-align: center;
+}
+
+.no-result {
+  text-align: center;
+  padding: 20px;
+  font-size: 140%;
+}

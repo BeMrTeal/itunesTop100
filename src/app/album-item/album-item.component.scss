@@ -1,0 +1,82 @@
+@import "src/styles.scss";
+
+.album-item {
+  width: 170px;
+  margin: 25px;
+  margin-bottom: 75px;
+  position: relative;
+}
+
+img {
+  border-radius: 5px;
+  -webkit-transition: all 0.6s cubic-bezier(0.15, 0.8, 0.4, 1);
+  transition: all 0.6s cubic-bezier(0.15, 0.8, 0.4, 1);
+  opacity: 0.8;
+  border: 1px solid transparent;
+
+  &:hover {
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    opacity: 1;
+    border-color: $highlight-color;
+    cursor: pointer;
+  }
+}
+
+.album-card {
+  margin-top: 5px;
+  margin-left: -10px;
+  padding: 5px;
+  display: block;
+  position: absolute;
+  width: 180px;
+  background-color: $secondary-color;
+  border-radius: 5px;
+  z-index: 10;
+  text-align: left;
+
+  div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    .name {
+      font-size: 110%;
+      font-weight: 550;
+    }
+
+    .artist {
+      font-weight: 200;
+    }
+
+    .date {
+      font-weight: 100;
+      font-style: italic;
+      font-size: 80%;
+    }
+  }
+
+  &:hover div {
+    color: $highlight-color;
+    white-space: normal;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .album-item {
+    margin: auto;
+    width: 300px;
+    margin-bottom: 100px;
+  }
+
+  img {
+    width: 250px;
+    margin-bottom: 5px;
+  }
+
+  .album-card {
+    width: 240px;
+    margin-left: 25px;
+  }
+}

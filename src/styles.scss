@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+$font-stack: "Roboto", sans-serif;
+$primary-color: #29899C;
+$secondary-color: #237687;
+$font-color: #FFF;
+$highlight-color: #FFFFDF;
+
+body {
+  font-family: $font-stack;
+  color: $font-color;
+  background-color: #237687;
+  margin: 0;
+}
